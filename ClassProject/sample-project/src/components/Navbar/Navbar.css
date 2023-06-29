@@ -1,0 +1,23 @@
+.nav{
+      /* background-color: red; */
+      display: flex;
+  
+      justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 0.5rem;
+    /*  gn-items: flex-end; */
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: Green;
+}
+.active{
+    color:rgb(255, 72, 0);
+}
